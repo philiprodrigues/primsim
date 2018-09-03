@@ -18,7 +18,7 @@ LDLIBS += $(ZEROMQ_LIB) $(CZMQ_LIB) -lrt
 
 # Add any more executables you want here. They should have a single
 # .cxx file with the same name as the executable you want
-BINARIES := primsim
+BINARIES := primsim trigfarm01
 OBJS := $(addsuffix .o,$(BINARIES))
 DEPS := $(addsuffix .d,$(BINARIES))
 SRCS := $(addsuffix .cxx,$(BINARIES))
